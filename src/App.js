@@ -9,9 +9,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          THE NAMME OF MY DAUGHTER IS OLUWATAMILORE ADIOMOWO
+          THE NAME OF MY DAUGHTER IS OLUWATAMILORE ADIOMOWO
 	  
-          And I love Ayodele so much and she loves me too
+          And I love AYODELE OLANREWAJU OMOKOGA
 
          I love my mum too and my family  
         </p>

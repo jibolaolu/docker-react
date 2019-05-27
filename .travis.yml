@@ -7,3 +7,17 @@ before_install:
 language: generic
 script:
   - docker run  jibolaolu/docker-react npm run ci_test -- --coverage
+
+deploy:  
+  provider: elasticbeanstalk
+  region: "eu-west-2"
+  app: "Doocker"
+  env: "Doocker-env"
+  bucket_name: "elasticbeanstalk-eu-west-2-100753669199"
+  bucket_path: "Doocker"
+  on:  
+    branch: master
+  access_key_id: $AWS_Access_Key
+  secret_access_key:
+    secure: "$AWS_Secret_Key"
+ 
